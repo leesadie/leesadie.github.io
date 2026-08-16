@@ -1,0 +1,211 @@
+/* Base */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #212529;
+  background-color: #ffffff;
+  line-height: 1.5;
+  font-size: 16px;
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 100px 24px;
+}
+
+header > div > div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+header a[href="/"] {
+  color: #212529;
+  font-weight: 500;
+  text-decoration: none;
+  margin-right: auto;
+}
+
+header a:not([href="/"]) {
+  color: #767676;
+  text-decoration: none;
+  margin-left: 20px;
+  transition: color 0.15s ease;
+}
+
+header a:not([href="/"]):hover {
+  color: #212529;
+}
+
+main section p {
+  margin-bottom: 1.5rem;
+}
+
+main section a {
+  color: #212529;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+
+main section a:hover {
+  color: #767676;
+}
+
+h4 {
+  font-weight: 600;
+}
+
+/* Work */
+.work-item {
+  margin-bottom: 2rem;
+}
+
+.work-title {
+  margin: 0 0 0.25rem 0;
+  font-weight: 600;
+}
+
+.work-meta {
+  margin: 0 0 0.5rem 0;
+  color: #666;
+}
+
+.work-links a {
+  margin-right: 0.5rem;
+  color: #666;
+  text-decoration: underline;
+  font-size: 15px;
+}
+
+.work-links a:hover {
+  color: #212529;
+}
+
+/* Misc */
+.misc-section {
+  margin-bottom: 2rem;
+}
+
+.misc-heading {
+  color: #666;
+}
+
+.misc-item {
+  margin: 0.2rem 0;
+  display: flex;
+  gap: 1rem;
+}
+
+.misc-date {
+  color: #888;
+  width: 3.5rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.misc-extra a {
+  color: #111;
+  text-decoration: underline;
+}
+
+.misc-extra p {
+  margin: 0.2rem 0;
+}
+
+/* Bookshelf */
+.page-title {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 2.5rem;
+}
+
+.book-category {
+  margin-bottom: 2.5rem;
+}
+
+.book-category h2 {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+}
+
+.book-list {
+  list-style: none; 
+  padding: 0;
+  margin: 0;
+}
+
+.book-item {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #212529;
+  margin-bottom: 0.35rem;
+}
+
+.book-item.has-date {
+  display: flex;
+  justify-items: baseline;
+  gap: 0 1rem;
+}
+
+.book-date {
+  color: #767676;
+  flex-shrink: 0;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Photos */
+.photos-list li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.photo-item {
+  margin: 0;
+}
+
+.photo-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.photo-item figcaption {
+  font-size: 0.85rem;
+  color: #666;
+  font-style: italic;
+  margin-top: 0.5rem;
+}
+
+/* Resume */
+.resume main section h4 {
+  font-weight: 600;
+}
+
+.resume main section h3 {
+  margin-bottom: 0.2rem;
+}
+
+.resume main section li {
+  margin-left: 2rem;
+}
+
+.resume main section ul {
+  margin-bottom: 2rem;
+}
+
+.resume main section p + ul {
+  margin-top: 0;
+}

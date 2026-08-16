@@ -1,0 +1,23 @@
+---
+title: Work
+layout: base-layout.njk
+---
+
+<p>Selected work</p>
+
+<div class="work-list">
+  {% for item in work %}
+    <article class="work-item">
+      <p class="work-title">{{ item.title }}</p>
+      <p class="work-meta"><em>{{ item.venue }}. {{ item.date }}.</em></p>
+      
+      {% if item.links %}
+        <p class="work-links">
+          {% for link in item.links %}
+            <a href="{{ link.link }}">{{ link.name }}</a>{% if not loop.last %} {% endif %}
+          {% endfor %}
+        </p>
+      {% endif %}
+    </article>
+  {% endfor %}
+</div>

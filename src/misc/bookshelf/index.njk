@@ -1,0 +1,45 @@
+---
+title: Bookshelf
+layout: base-layout.njk
+---
+
+<p>Bookshelf</p>
+
+<div class="bookshelf">
+    <!-- Reading -->
+    <div class="book-category">
+        <h2>Reading</h2>
+        <ul class="book-list">
+        {% for book in books %}{% if book.status == "current" %}
+            <li class="book-item">
+            <span>{{ book.title }}</span> – <span class="book-author">{{ book.author }}</span>
+            </li>
+        {% endif %}{% endfor %}
+        </ul>
+    </div>
+
+    <!-- Read -->
+    <div class="book-category">
+        <h2>Read</h2>
+        <ul class="book-list">
+        {% for book in books | sort(true, false, "date_read") %}{% if book.status == "read" %}
+            <li class="book-item has-date">
+            <span class="book-date">{{ book.date_read }}</span>
+            <span class="book-info">{{ book.title }} – <span class="book-author">{{ book.author }}</span></span>
+            </li>
+        {% endif %}{% endfor %}
+        </ul>
+    </div>
+
+    <!-- To read -->
+    <div class="book-category">
+        <h2>To read</h2>
+        <ul class="book-list">
+        {% for book in books %}{% if book.status == "to_read" %}
+            <li class="book-item">
+            <span>{{ book.title }}</span> – <span class="book-author">{{ book.author }}</span>
+            </li>
+        {% endif %}{% endfor %}
+        </ul>
+    </div>
+</div>

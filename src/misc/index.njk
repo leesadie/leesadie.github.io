@@ -1,0 +1,39 @@
+---
+title: Misc
+layout: base-layout.njk
+---
+
+<p>Miscellaneous projects, links, notes</p>
+
+<section class="misc-section">
+  <p class="misc-heading">Code</p>
+  {% for item in misc.code %}
+    <p class="misc-item">
+      <span class="misc-date">{{ item.date }}</span>
+      {% if item.link %}
+        <a href="{{ item.link }}">{{ item.title }}</a>
+      {% else %}
+        <span>{{ item.title }}</span>
+      {% endif %}
+    </p>
+  {% endfor %}
+</section>
+
+<section class="misc-section">
+  <p class="misc-heading">Notes</p>
+  {% for item in misc.notes %}
+    <p class="misc-item">
+      <span class="misc-date">{{ item.date }}</span>
+      {% if item.link %}
+        <a href="{{ item.link }}">{{ item.title }}</a>
+      {% else %}
+        <span>{{ item.title }}</span>
+      {% endif %}
+    </p>
+  {% endfor %}
+</section>
+
+<section class="misc-extra">
+  <p><a href="/misc/bookshelf">Bookshelf</a></p>
+  <p><a href="/misc/photos">Photos</a></p>
+</section>

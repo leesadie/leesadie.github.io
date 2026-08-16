@@ -1,0 +1,25 @@
+code:
+  - title: "interrater-lm"
+    date: "2026"
+    link: "https://github.com/leesadie/interrater-lm"
+
+  - title: "nl-lambda"
+    date: "2026"
+    link: "https://github.com/leesadie/nl-lambda"
+
+  - title: "virtual-cards"
+    date: "2026"
+    link: "https://github.com/leesadie/virtual-cards"
+
+  - title: "Patterns of Growth"
+    date: "2025"
+    link: "https://patterns-of-growth.vercel.app/"
+
+notes:
+  - title: "Interrater reliability notes"
+    date: "2026"
+    link: ""
+
+  - title: "Advanced semantics course notes"
+    date: "2026"
+    link: ""

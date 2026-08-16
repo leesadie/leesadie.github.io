@@ -1,0 +1,25 @@
+---
+layout: base-layout.njk
+pagination:
+    data: photos
+    size: 1
+    alias: album
+permalink: "/misc/photos/{{ album.slug }}/"
+eleventyComputed:
+    title: "{{ album.title }}"
+---
+
+<p class="album-title">
+  {{ album.title }}{% if album.year %} <span class="album-year">{{ album.year }}</span>{% endif %}
+</p>
+
+<div class="photo-grid">
+  {% for photo in album.photos %}
+    <figure class="photo-item">
+      <img src="{{ photo.src }}" alt="{{ photo.alt }}" loading="lazy">
+      {% if photo.subtitle %}
+        <figcaption>{{ photo.subtitle }}</figcaption>
+      {% endif %}
+    </figure>
+  {% endfor %}
+</div>

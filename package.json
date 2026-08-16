@@ -1,0 +1,20 @@
+{
+  "name": "leesadie",
+  "version": "1.0.0",
+  "description": "my personal site",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx eleventy",
+    "serve": "npx eleventy --serve",
+    "test": "npm run test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.6"
+  },
+  "dependencies": {
+    "markdown-it-attrs": "^5.0.1",
+    "markdown-it-link-attributes": "^4.0.1"
+  }
+}

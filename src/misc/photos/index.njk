@@ -1,0 +1,16 @@
+---
+title: Photos
+layout: base-layout.njk
+---
+
+<p>Photos</p>
+
+<ul class="photos-list">
+  {% for album in photos %}
+    <li>
+      <a href="/misc/photos/{{ album.slug }}/">
+        {{ album.title }}{% if album.year %} {{ album.year }}{% endif %}
+      </a>
+    </li>
+  {% endfor %}
+</ul>

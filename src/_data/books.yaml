@@ -1,0 +1,357 @@
+- title: "Philosophy and the Mirror of Nature"
+  author: "Richard Rorty"
+  status: "current"
+
+- title: "Critique of Pure Reason"
+  author: "Kant"
+  status: "current"
+
+- title: "The White Book"
+  author: "Han Kang"
+  status: "read"
+  date_read: "2026-07-24"
+
+- title: "A Farewell to Arms"
+  author: "Hemingway"
+  status: "read"
+  date_read: "2026-07-14"
+
+- title: "The Prince"
+  author: "Machiavelli"
+  status: "read"
+  date_read: "2026-07-10"
+
+- title: "A Grief Observed"
+  author: "C.S. Lewis"
+  status: "read"
+  date_read: "2026-07-01"
+
+- title: "Thoughts on Government"
+  author: "John Adams"
+  status: "read"
+  date_read: "2026-06-05"
+
+- title: "Meditations"
+  author: "Descartes"
+  status: "read"
+  date_read: "2026-06-01"
+
+- title: "The Brothers Karamazov"
+  author: "Dostoyevsky"
+  status: "read"
+  date_read: "2026-05-29"
+
+- title: "Song of Solomon"
+  author: "Toni Morrison"
+  status: "to_read"
+
+- title: "The Sea, The Sea"
+  author: "Iris Murdoch"
+  status: "to_read"
+
+- title: "Pachinko"
+  author: "Min Jin Lee"
+  status: "to_read"
+
+- title: "The Age of Reason"
+  author: "Sartre"
+  status: "to_read"
+
+- title: A Doll's House
+  author: Henrik Ibsen
+  date_read: "2022-08-01"
+  status: "read"
+
+- title: A Hero of Our Time
+  author: Mikhail Lermontov
+  date_read: "2023-09-01"
+  status: "read"
+
+- title: A Thousand Splendid Suns
+  author: Khaled Hosseini
+  date_read: "2026-03-01"
+  status: "read"
+
+- title: Algorithms to Live By
+  author: Brian Christian, Tom Griffiths
+  date_read: "2024-05-01"
+  status: "read"
+
+- title: Anna Karenina
+  author: Tolstoy
+  date_read: "2023-12-01"
+  status: "read"
+
+- title: The Art of Doing Science and Engineering
+  author: Richard Hamming
+  date_read: "2026-02-01"
+  status: "read"
+
+- title: Being Happy
+  author: Epicurus
+  date_read: "2022-09-01"
+  status: "read"
+
+- title: Blueprints, How Mathematics Shapes Creativity
+  author: Marcus du Sautoy
+  date_read: "2025-08-01"
+  status: "read"
+
+- title: Brave New World
+  author: Aldous Huxley
+  date_read: "2022-07-01"
+  status: "read"
+
+- title: Bushido, The Soul of Japan
+  author: Inazo Nitobe
+  date_read: "2022-09-01"
+  status: "read"
+
+- title: Catch 22
+  author: Joseph Heller
+  date_read: "2022-05-01"
+  status: "read"
+
+- title: Cloud Atlas
+  author: David Mitchell
+  status: "read"
+  date_read: "2022-06-01"
+
+- title: Crime and Punishment
+  author: Dostoyevsky
+  date_read: "2018-10-01"
+  status: "read"
+
+- title: East of Eden
+  author: John Steinbeck
+  date_read: "2026-02-01"
+  status: "read"
+
+- title: Fahrenheit 451
+  author: Ray Bradbury
+  date_read: "2022-06-01"
+  status: "read"
+
+- title: Faust I
+  author: Goethe
+  date_read: "2026-01-01"
+  status: "read"
+
+- title: In a Flight of Starlings
+  author: Giorgio Parisi
+  date_read: "2025-09-01"
+  status: "read"
+
+- title: Theory of Games and Economic Behavior
+  author: John von Neumann, Oskar Morgenstern
+  date_read: "2025-08-01"
+  status: "read"
+
+- title: The Great Gatsby
+  author: F. Scott Fitzgerald
+  date_read: "2022-05-01"
+  status: "read"
+
+- title: Hamlet
+  author: Shakespeare
+  date_read: "2022-08-01"
+  status: "read"
+
+- title: How to Write A Thesis
+  author: Umberto Eco
+  date_read: "2025-10-01"
+  status: "read"
+
+- title: Infinite Jest
+  author: David Foster Wallace
+  date_read: "2024-05-01"
+  status: "read"
+
+- title: The Kite Runner
+  author: Khaled Hosseini
+  date_read: "2022-05-01"
+  status: "read"
+
+- title: Letting Go
+  author: David Hawkins
+  date_read: "2022-09-01"
+  status: "read"
+
+- title: Midnight's Children
+  author: Salman Rushdie
+  date_read: "2022-03-01"
+  status: "read"
+
+- title: A Midsummer Night's Dream
+  author: Shakespeare
+  date_read: "2019-03-01"
+  status: "read"
+
+- title: Naming and Necessity
+  author: Saul Kripke
+  date_read: "2026-03-01"
+  status: "read"
+
+- title: Nausea
+  author: Jean-Paul Sartre
+  date_read: "2025-11-01"
+  status: "read"
+
+- title: Notes from Underground
+  author: Fyodor Dostoyevsky
+  date_read: "2025-11-01"
+  status: "read"
+
+- title: On Denoting
+  author: Bertrand Russell
+  date_read: "2026-01-01"
+  status: "read"
+
+- title: On Earth We're Briefly Gorgeous
+  author: Ocean Vuong
+  date_read: "2022-04-01"
+  status: "read"
+
+- title: On the Edge
+  author: Nate Silver
+  date_read: "2025-05-01"
+  status: "read"
+
+- title: On Writing
+  author: Stephen King
+  date_read: "2025-09-01"
+  status: "read"
+
+- title: One Swallow Does Not Make a Summer
+  author: Aristotle
+  date_read: "2022-09-01"
+  status: "read"
+
+- title: Othello
+  author: Shakespeare
+  date_read: "2022-08-01"
+  status: "read"
+
+- title: A Portrait of the Artist as a Young Man
+  author: James Joyce
+  date_read: "2026-01-01"
+  status: "read"
+
+- title: Queen of Spades
+  author: Alexander Pushkin
+  date_read: "2023-10-01"
+  status: "read"
+
+- title: Reading Lolita in Tehran
+  author: Azar Nafisi
+  date_read: "2022-02-01"
+  status: "read"
+
+- title: The Ruthless Elimination of Hurry
+  author: John Mark Comer
+  date_read: "2026-01-01"
+  status: "read"
+
+- title: Science and the Common Understanding
+  author: J. Robert Oppenheimer
+  date_read: "2026-02-01"
+  status: "read"
+
+- title: Sense and Reference
+  author: Gottlöb Frege
+  date_read: "2026-01-01"
+  status: "read"
+
+- title: The Art of War
+  author: Sun Tzu
+  date_read: "2022-04-01"
+  status: "read"
+
+- title: The Courage to Create
+  author: Rollo May
+  date_read: "2026-02-01"
+  status: "read"
+
+- title: The Fabric of Reality
+  author: David Deutsch
+  date_read: "2026-02-01"
+  status: "read"
+
+- title: The Handmaid's Tale
+  author: Margaret Atwood
+  date_read: "2020-08-01"
+  status: "read"
+
+- title: The Joy Luck Club
+  author: Amy Tan
+  date_read: "2021-09-01"
+  status: "read"
+
+- title: The Metamorphosis
+  author: Franz Kafka
+  date_read: "2022-07-01"
+  status: "read"
+
+- title: The Nonlinear World
+  author: Yoshitsugu Oono
+  date_read: "2026-03-01"
+  status: "read"
+
+- title: The Odyssey
+  author: Homer
+  date_read: "2018-11-01"
+  status: "read"
+
+- title: The Overcoat
+  author: Nikolai Gogol
+  date_read: "2023-09-01"
+  status: "read"
+
+- title: The Pursuit of God
+  author: A. W. Tozer
+  date_read: "2025-12-01"
+  status: "read"
+
+- title: The Stranger
+  author: Albert Camus
+  date_read: "2022-08-01"
+  status: "read"
+
+- title: The Sun Also Rises
+  author: Hemingway
+  date_read: "2022-08-01"
+  status: "read"
+
+- title: The Symposium
+  author: Plato
+  date_read: "2022-09-01"
+  status: "read"
+
+- title: Tractatus Logico-Philosophicus
+  author: Ludwig Wittgenstein
+  date_read: "2026-02-23"
+  status: "read"
+
+- title: War and Peace
+  author: Leo Tolstoy
+  date_read: "2025-05-01"
+  status: "read"
+
+- title: When Breath Becomes Air
+  author: Paul Kalanithi
+  date_read: "2021-08-01"
+  status: "read"
+
+- title: Why Machines Learn
+  author: Anil Ananthaswamy
+  date_read: "2025-08-01"
+  status: "read"
+
+- title: Wittgenstein
+  author: Peter Hacker
+  date_read: "2022-09-01"
+  status: "read"
+
+- title: You and Your Research
+  author: Richard Hamming
+  date_read: "2026-03-01"
