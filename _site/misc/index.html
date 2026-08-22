@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" /> 
   <title>Misc</title> 
   <link rel="stylesheet" href="/css/style.css">
+  <link 
+    rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css"
+  >
 </head> 
 <body class="site-content" > 
   <header>
@@ -61,14 +65,7 @@
     <p class="misc-item">
       <span class="misc-date">2026</span>
       
-        <span>Interrater reliability notes</span>
-      
-    </p>
-  
-    <p class="misc-item">
-      <span class="misc-date">2026</span>
-      
-        <span>Advanced semantics course notes</span>
+        <a href="../../../assets/notes/advanced-semantics.pdf">Advanced semantics course notes</a>
       
     </p>
   
@@ -82,5 +79,15 @@
     </div>
   </main> 
   <footer></footer> 
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      document.querySelectorAll('a[href^="http://"], a[href^="https://"]').forEach(link => {
+        if (link.hostname !== window.location.hostname) {
+          link.setAttribute('target', '_blank');
+          link.setAttribute('rel', 'noopener noreferrer');
+        }
+      });
+    });
+  </script>
 </body> 
 </html>

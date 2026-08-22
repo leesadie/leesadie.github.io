@@ -16,10 +16,6 @@ code:
     link: "https://patterns-of-growth.vercel.app/"
 
 notes:
-  - title: "Interrater reliability notes"
-    date: "2026"
-    link: ""
-
   - title: "Advanced semantics course notes"
     date: "2026"
-    link: ""
+    link: "../../../assets/notes/advanced-semantics.pdf"

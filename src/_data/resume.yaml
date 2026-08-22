@@ -28,7 +28,7 @@ experience:
     date: "May - Aug 2025"
     bullets:
       - "Supervisors: Adam Resnick, Rob Blundo (Mayo Clinic Platform)"
-      - "Analyzed risks to patient re-identification in deep learning models trained on de-identified medical images by developing model inversion methods and predicting PII from the images reconstructed from model weights."
+      - "Analyzed risks to patient re-identification in deep learning models trained on de-identified medical images by developing model inversion methods and predicting PII with the images reconstructed from model weights."
   - company: "Voythos"
     title: "Data Science Intern"
     date: "May - Jul 2025"
@@ -38,10 +38,10 @@ experience:
     title: "Undergraduate Intern - Mayo Clinic Platform"
     date: "May - Aug 2024"
     bullets:
-      - "Developed and validated an end-to-end workflow for customer development of AI/ML with DICOM medical imaging by curating and annotating data, and training and evaluating models with a prostate MRI case study."
+      - "Developed and validated an end-to-end workflow for customer AI/ML development with DICOM medical imaging by curating and annotating data, training models, and evaluating custom tools with a prostate MRI case study."
       - "Built dashboards in Power BI to track customer acquisitions, visualize account metrics, and present product KPIs."
       - "Queried clinical databases with SQL to identify cohorts of data for prospective customers."
-  - company: "BC Children's Hospital Research Institute / UBC Faculty of Medicine"
+  - company: "BC Children's Hospital Research Institute, UBC Faculty of Medicine"
     title: "Research Assistant"
     date: "May 2023 - Apr 2024"
     bullets:
@@ -53,6 +53,13 @@ awards:
     date: "Mar 2026"
   - title: "UBC Arts Undergraduate Society Student Conference Grant Award"
     date: "Mar 2025"
+
+teaching:
+  - company: "University of British Columbia"
+    title: "Teaching Assistant"
+    date: "Jan - Apr 2026"
+    bullets:
+      - "COGS 401 - Seminar in Cognitive Systems"
 
 skills:
   - "AI/ML: PyTorch, torchvision, TensorFlow, NiBabel, MONAI"

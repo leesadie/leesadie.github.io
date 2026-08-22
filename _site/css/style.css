@@ -343,3 +343,65 @@ h4 {
   margin-top: 0;
   padding-left: 16px;
 }
+
+.print-link {
+  color: #212529;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.print-link:hover {
+  color: #767676;
+}
+
+@media print {
+  @page {
+    margin: 10mm 4mm 10mm 4mm;
+  }
+
+  body {
+    background-color: #fff;
+    color: #000;
+    font-size: 8px;
+  }
+
+  .resume h1 {
+    font-size: 16px;
+  }
+
+  .resume h2 {
+    font-size: 16px;
+  }
+  
+  .resume-header {
+    margin-bottom: 18px;
+  }
+
+  .resume-entry {
+    margin-bottom: 18px;
+  }
+
+  .resume-entry--compact {
+    margin-bottom: 4px;
+  }
+
+  .resume-section {
+    margin-bottom: 18px;
+  }
+
+  .resume-layout main {
+    padding: 0 !important;
+    max-width: 100% !important;
+  }
+
+  .site-content {
+    padding: 0 !important;
+  }
+  .print-link {
+    display: none !important;
+  }
+}

@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" /> 
   <title>Australia</title> 
   <link rel="stylesheet" href="/css/style.css">
+  <link 
+    rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css"
+  >
 </head> 
 <body class="site-content" > 
   <header>
@@ -76,5 +80,15 @@
     </div>
   </main> 
   <footer></footer> 
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      document.querySelectorAll('a[href^="http://"], a[href^="https://"]').forEach(link => {
+        if (link.hostname !== window.location.hostname) {
+          link.setAttribute('target', '_blank');
+          link.setAttribute('rel', 'noopener noreferrer');
+        }
+      });
+    });
+  </script>
 </body> 
 </html>
