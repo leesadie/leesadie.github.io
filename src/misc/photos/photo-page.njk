@@ -12,6 +12,9 @@ eleventyComputed:
 <p class="album-title">
   {{ album.title }}{% if album.year %} <span class="album-year">{{ album.year }}</span>{% endif %}
 </p>
+<p class="album-desc">
+  {% if album.desc %}{{ album.desc }}{% endif %}
+</p>
 
 <div class="photo-grid">
   {% for photo in album.photos %}

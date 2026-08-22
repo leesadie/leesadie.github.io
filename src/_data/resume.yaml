@@ -1,0 +1,62 @@
+name: "Sadie Lee"
+contact:
+  - text: "Sadie.Lee@childrens.harvard.edu"
+    link: "mailto:Sadie.Lee@childrens.harvard.edu"
+  - text: "leesadie.github.io"
+    link: "https://leesadie.github.io"
+  - text: "github.com/leesadie"
+    link: "https://github.com/leesadie"
+  - text: "linkedin.com/leesadie"
+    link: "https://www.linkedin.com/in/leesadie/"
+
+education:
+  - school: "University of British Columbia, Vancouver, Canada"
+    degree: "B.A. Cognitive Systems; Minor in Data Science"
+    details: "High Distinction"
+    date: "May 2026"
+
+experience:
+  - company: "Boston Children's Hospital"
+    title: "Research Assistant - Computational Health Informatics Program"
+    date: "Jun 2026 - Present"
+    bullets:
+      - "Evaluating how LLMs interpret complex biomedical time-series data to inform safe integration in practice with Dr. Elizabeth Healey and Dr. Ken Mandl."
+      - "Developing pipelines to automatically process data, run evaluations, and analyze model outputs."
+      - "Using statistical models to understand the effect of how the presentation of time-series data affects LLM analysis and interpretation."
+  - company: "Mayo Clinic"
+    title: "Research Student - Mayo Clinic Platform"
+    date: "May - Aug 2025"
+    bullets:
+      - "Supervisors: Adam Resnick, Rob Blundo (Mayo Clinic Platform)"
+      - "Analyzed risks to patient re-identification in deep learning models trained on de-identified medical images by developing model inversion methods and predicting PII from the images reconstructed from model weights."
+  - company: "Voythos"
+    title: "Data Science Intern"
+    date: "May - Jul 2025"
+    bullets:
+      - "Performed data preprocessing, augmentation, modeling, and evaluation to segment the aorta and detect thrombosis in chest CT images for the vision arm of a multimodal approach to make fine-grained predictions on patient risk of aortic dissection."
+  - company: "Mayo Clinic"
+    title: "Undergraduate Intern - Mayo Clinic Platform"
+    date: "May - Aug 2024"
+    bullets:
+      - "Developed and validated an end-to-end workflow for customer development of AI/ML with DICOM medical imaging by curating and annotating data, and training and evaluating models with a prostate MRI case study."
+      - "Built dashboards in Power BI to track customer acquisitions, visualize account metrics, and present product KPIs."
+      - "Queried clinical databases with SQL to identify cohorts of data for prospective customers."
+  - company: "BC Children's Hospital Research Institute / UBC Faculty of Medicine"
+    title: "Research Assistant"
+    date: "May 2023 - Apr 2024"
+    bullets:
+      - "Automated the collection and analysis of continuous glucose monitoring data to examine the effect of a peer support intervention on glycemic control, a secondary outcome of a clinical trial."
+      - "Co-authored study protocols, ethics amendments, and data safety and monitoring plans."
+
+awards:
+  - title: "Andrew Wade Memorial Award in Visual Analytics"
+    date: "Mar 2026"
+  - title: "UBC Arts Undergraduate Society Student Conference Grant Award"
+    date: "Mar 2025"
+
+skills:
+  - "AI/ML: PyTorch, torchvision, TensorFlow, NiBabel, MONAI"
+  - "NLP: transformers, nltk, spaCy"
+  - "Data: Python, R, NoSQL, MySQL, d3.js, Power BI"
+  - "Web: HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind"
+  - "Tools: Git, Docker, Slurm scripting, Jupyter, REDCap, Epic EHR"

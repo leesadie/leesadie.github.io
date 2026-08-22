@@ -1,0 +1,144 @@
+---
+title: Resume
+layout: resume-layout.njk
+---
+
+<div class="resume">
+
+  <header class="resume-header">
+    <a href="/">
+        <h1>{{ resume.name }}</h1>
+    </a>
+
+    <div class="contact-grid">
+      {% for item in resume.contact %}
+        <div class="contact-item">
+          <a href="{{ item.link }}">
+            {{ item.text }}
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  </header>
+
+
+  {# Education #}
+  <section class="resume-section">
+    <h2>Education</h2>
+
+    {% for edu in resume.education %}
+      <article class="resume-entry">
+        <div class="entry-content">
+          <strong>{{ edu.school }}</strong>
+
+          <div class="entry-subtitle">
+            {{ edu.degree }}
+          </div>
+
+          {% if edu.details %}
+            <div class="entry-details">
+              {{ edu.details }}
+            </div>
+          {% endif %}
+        </div>
+
+        <time class="entry-date">
+          {{ edu.date }}
+        </time>
+      </article>
+    {% endfor %}
+  </section>
+
+
+  {# Experience #}
+  <section class="resume-section">
+    <h2>Experience</h2>
+
+    {% for exp in resume.experience %}
+      <article class="resume-entry">
+        <div class="entry-content">
+          <strong>{{ exp.company }}</strong>
+
+          <div class="entry-subtitle">
+            {{ exp.title }}
+          </div>
+        </div>
+
+        <time class="entry-date">
+          {{ exp.date }}
+        </time>
+
+        {% if exp.bullets %}
+          <ul class="entry-bullets">
+            {% for bullet in exp.bullets %}
+              <li>{{ bullet }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </article>
+    {% endfor %}
+  </section>
+
+
+  {# Awards #}
+  <section class="resume-section">
+    <h2>Awards</h2>
+
+    {% for award in resume.awards %}
+      <article class="resume-entry resume-entry--compact">
+        <div class="entry-content">
+          <strong>{{ award.title }}</strong>
+        </div>
+
+        <time class="entry-date">
+          {{ award.date }}
+        </time>
+      </article>
+    {% endfor %}
+  </section>
+
+
+  {# Teaching #}
+  {% if resume.teaching %}
+    <section class="resume-section">
+      <h2>Teaching</h2>
+
+      {% for item in resume.teaching %}
+        <article class="resume-entry">
+          <div class="entry-content">
+            <strong>{{ item.company }}</strong>
+
+            <div class="entry-subtitle">
+              {{ item.title }}
+            </div>
+          </div>
+
+          <time class="entry-date">
+            {{ item.date }}
+          </time>
+
+          {% if item.bullets %}
+            <ul class="entry-bullets">
+              {% for bullet in item.bullets %}
+                <li>{{ bullet }}</li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </article>
+      {% endfor %}
+    </section>
+  {% endif %}
+
+
+  {# Technical Skills #}
+  <section class="resume-section">
+    <h2>Technical Skills</h2>
+
+    <ul class="skills-list">
+      {% for item in resume.skills %}
+        <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+  </section>
+
+</div>
