@@ -27,7 +27,7 @@ experience:
     title: "Research Student - Mayo Clinic Platform"
     date: "May - Aug 2025"
     bullets:
-      - "Supervisors: Adam Resnick, Rob Blundo (Mayo Clinic Platform)"
+      - "Supervisors: Adam Resnick, Rob Blundo"
       - "Analyzed risks to patient re-identification in deep learning models trained on de-identified medical images by developing model inversion methods and predicting PII with the images reconstructed from model weights."
   - company: "Voythos"
     title: "Data Science Intern"
@@ -62,8 +62,7 @@ teaching:
       - "COGS 401 - Seminar in Cognitive Systems"
 
 skills:
-  - "AI/ML: PyTorch, torchvision, TensorFlow, NiBabel, MONAI"
-  - "NLP: transformers, nltk, spaCy"
-  - "Data: Python, R, NoSQL, MySQL, d3.js, Power BI"
-  - "Web: HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind"
-  - "Tools: Git, Docker, Slurm scripting, Jupyter, REDCap, Epic EHR"
+  - "AI/ML: PyTorch, torchvision, TensorFlow, NiBabel, transformers, MONAI"
+  - "Data: Python, R, NoSQL, MySQL, PostgreSQL, d3.js, Power BI"
+  - "Web: HTML, CSS, JavaScript, TypeScript, React, Next.js, FastAPI, Tailwind"
+  - "Tools: Git, Docker, Jupyter, REDCap, Epic EHR, FHIR"
