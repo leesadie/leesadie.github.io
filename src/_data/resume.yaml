@@ -12,7 +12,7 @@ contact:
 education:
   - school: "University of British Columbia, Vancouver, Canada"
     degree: "B.A. Cognitive Systems; Minor in Data Science"
-    details: "High Distinction"
+    details: "Obtained with High Distinction"
     date: "May 2026"
 
 experience:
@@ -20,25 +20,25 @@ experience:
     title: "Research Assistant - Computational Health Informatics Program"
     date: "Jun 2026 - Present"
     bullets:
-      - "Evaluating how LLMs interpret complex biomedical time-series data to inform safe integration in practice with Dr. Elizabeth Healey and Dr. Ken Mandl."
-      - "Developing pipelines to automatically process data, run evaluations, and analyze model outputs."
-      - "Using statistical models to understand the effect of how the presentation of time-series data affects LLM analysis and interpretation."
+      - "Developing data fusion methods to integrate continuous glucose monitoring (CGM) data with additional patient data for predicting glycemic outcomes."
+      - "Evaluating how LLMs interpret CGM data to inform safe integration in diabetes care."
+      - "Building pipelines to process FHIR data, identify cohorts, run evaluations, and analyze model outputs."
   - company: "Mayo Clinic"
     title: "Research Student - Mayo Clinic Platform"
     date: "May - Aug 2025"
     bullets:
-      - "Supervisors: Adam Resnick, Rob Blundo"
-      - "Analyzed risks to patient re-identification in deep learning models trained on de-identified medical images by developing model inversion methods and predicting PII with the images reconstructed from model weights."
+      - "Analyzed risks to patient re-identification from models trained on de-identified medical images."
+      - "Developed model inversion methods and predicted PII with images reconstructed from model weights."
   - company: "Voythos"
     title: "Data Science Intern"
     date: "May - Jul 2025"
     bullets:
-      - "Performed data preprocessing, augmentation, modeling, and evaluation to segment the aorta and detect thrombosis in chest CT images for the vision arm of a multimodal approach to make fine-grained predictions on patient risk of aortic dissection."
+      - "Performed data preprocessing, augmentation, modeling, and evaluation to segment the aorta and detect thrombosis in chest CT images for use in a multimodal approach to predict risk of type B aortic dissection."
   - company: "Mayo Clinic"
     title: "Undergraduate Intern - Mayo Clinic Platform"
     date: "May - Aug 2024"
     bullets:
-      - "Developed and validated an end-to-end workflow for customer AI/ML development with DICOM medical imaging by curating and annotating data, training models, and evaluating custom tools with a prostate MRI case study."
+      - "Developed an end-to-end workflow for customer AI/ML development with DICOM medical images by curating and annotating data, training models, and evaluating the efficacy of internal tools."
       - "Built dashboards in Power BI to track customer acquisitions, visualize account metrics, and present product KPIs."
       - "Queried clinical databases with SQL to identify cohorts of data for prospective customers."
   - company: "BC Children's Hospital Research Institute, UBC Faculty of Medicine"
@@ -54,15 +54,8 @@ awards:
   - title: "UBC Arts Undergraduate Society Student Conference Grant Award"
     date: "Mar 2025"
 
-teaching:
-  - company: "University of British Columbia"
-    title: "Teaching Assistant"
-    date: "Jan - Apr 2026"
-    bullets:
-      - "COGS 401 - Seminar in Cognitive Systems"
-
 skills:
   - "AI/ML: PyTorch, torchvision, TensorFlow, NiBabel, transformers, MONAI"
-  - "Data: Python, R, NoSQL, MySQL, PostgreSQL, d3.js, Power BI"
-  - "Web: HTML, CSS, JavaScript, TypeScript, React, Next.js, FastAPI, Tailwind"
+  - "Data: Python, R, NoSQL, MySQL, d3.js, Power BI"
+  - "Web: HTML, CSS, Jinja, JavaScript, TypeScript, React, Next.js, Tailwind"
   - "Tools: Git, Docker, Jupyter, REDCap, Epic EHR, FHIR"

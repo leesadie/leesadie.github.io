@@ -21,35 +21,6 @@ layout: resume-layout.njk
     </div>
   </header>
 
-
-  {# Education #}
-  <section class="resume-section">
-    <h2>Education</h2>
-
-    {% for edu in resume.education %}
-      <article class="resume-entry">
-        <div class="entry-content">
-          <strong>{{ edu.school }}</strong>
-
-          <div class="entry-subtitle">
-            {{ edu.degree }}
-          </div>
-
-          {% if edu.details %}
-            <div class="entry-details">
-              {{ edu.details }}
-            </div>
-          {% endif %}
-        </div>
-
-        <time class="entry-date">
-          {{ edu.date }}
-        </time>
-      </article>
-    {% endfor %}
-  </section>
-
-
   {# Experience #}
   <section class="resume-section">
     <h2>Experience</h2>
@@ -79,6 +50,32 @@ layout: resume-layout.njk
     {% endfor %}
   </section>
 
+  {# Education #}
+  <section class="resume-section">
+    <h2>Education</h2>
+
+    {% for edu in resume.education %}
+      <article class="resume-entry">
+        <div class="entry-content">
+          <strong>{{ edu.school }}</strong>
+
+          <div class="entry-subtitle">
+            {{ edu.degree }}
+          </div>
+
+          {% if edu.details %}
+            <div class="entry-details">
+              {{ edu.details }}
+            </div>
+          {% endif %}
+        </div>
+
+        <time class="entry-date">
+          {{ edu.date }}
+        </time>
+      </article>
+    {% endfor %}
+  </section>
 
   {# Awards #}
   <section class="resume-section">

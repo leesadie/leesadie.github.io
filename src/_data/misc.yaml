@@ -1,4 +1,8 @@
 code:
+  - title: "fhir-tools"
+    date: "2026"
+    link: "https://github.com/leesadie/fhir-tools"
+
   - title: "interrater-lm"
     date: "2026"
     link: "https://github.com/leesadie/interrater-lm"
@@ -6,10 +10,6 @@ code:
   - title: "nl-lambda"
     date: "2026"
     link: "https://github.com/leesadie/nl-lambda"
-
-  - title: "virtual-cards"
-    date: "2026"
-    link: "https://github.com/leesadie/virtual-cards"
 
   - title: "Patterns of Growth"
     date: "2025"
