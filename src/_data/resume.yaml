@@ -20,7 +20,7 @@ experience:
     title: "Research Assistant - Computational Health Informatics Program"
     date: "Jun 2026 - Present"
     bullets:
-      - "Developing data fusion methods to integrate continuous glucose monitoring (CGM) data with additional patient data for predicting glycemic outcomes."
+      - "Developing data fusion methods to integrate continuous glucose monitoring (CGM) data with EHR data for predicting glycemic outcomes."
       - "Evaluating how LLMs interpret CGM data to inform safe integration in diabetes care."
       - "Building pipelines to process FHIR data, identify cohorts, run evaluations, and analyze model outputs."
   - company: "Mayo Clinic"
@@ -56,6 +56,6 @@ awards:
 
 skills:
   - "AI/ML: PyTorch, torchvision, TensorFlow, NiBabel, transformers, MONAI"
-  - "Data: Python, R, NoSQL, MySQL, d3.js, Power BI"
+  - "Data: Python, R, MySQL, MongoDB, Oracle d3.js, Power BI"
   - "Web: HTML, CSS, Jinja, JavaScript, TypeScript, React, Next.js, Tailwind"
   - "Tools: Git, Docker, Jupyter, REDCap, Epic EHR, FHIR"
