@@ -303,14 +303,14 @@ h4 {
 }
 
 .entry-details {
-  margin-top: 1px;
+  grid-column: 1 / -1;
+  margin-top: 4px;
 }
 
 .entry-date {
   display: block;
   color: #777;
   font-size: 13px;
-  font-style: italic;
   margin-top: 2px;
 }
 

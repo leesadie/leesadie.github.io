@@ -62,17 +62,17 @@ layout: resume-layout.njk
           <div class="entry-subtitle">
             {{ edu.degree }}
           </div>
-
-          {% if edu.details %}
-            <div class="entry-details">
-              {{ edu.details }}
-            </div>
-          {% endif %}
         </div>
 
         <time class="entry-date">
           {{ edu.date }}
         </time>
+
+        {% if edu.details %}
+          <div class="entry-details">
+            {{ edu.details }}
+          </div>
+        {% endif %}
       </article>
     {% endfor %}
   </section>
@@ -138,6 +138,6 @@ layout: resume-layout.njk
     </ul>
   </section>
 
-  <a href="#" onclick="window.print(); return false;" class="print-link">Download PDF</a>
+  <a href="/assets/Sadie_Lee_Resume.pdf" class="print-link" download>Download PDF</a>
 
 </div>

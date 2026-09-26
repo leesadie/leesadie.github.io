@@ -11,8 +11,8 @@ contact:
 
 education:
   - school: "University of British Columbia, Vancouver, Canada"
-    degree: "B.A. Cognitive Systems; Minor in Data Science"
-    details: "Obtained with High Distinction"
+    degree: "B.A. Cognitive Systems; Minor in Data Science — High Distinction"
+    details: "Relevant coursework: Statistical Modeling, Databases, Applied Machine Learning, Data Visualization, Logic"
     date: "May 2026"
 
 experience:
@@ -20,14 +20,14 @@ experience:
     title: "Research Assistant - Computational Health Informatics Program"
     date: "Jun 2026 - Present"
     bullets:
-      - "Developing data fusion methods to integrate continuous glucose monitoring (CGM) data with EHR data for predicting glycemic outcomes."
-      - "Evaluating how LLMs interpret CGM data to inform safe integration in diabetes care."
+      - "Developing methods to jointly estimate dynamical states and the quality of observed data to support predictive modeling and triage decisions with uncertainty."
+      - "Evaluating how frontier LLMs interpret continuous glucose monitor data to inform safe integration in diabetes care."
       - "Building pipelines to process FHIR data, identify cohorts, run evaluations, and analyze model outputs."
   - company: "Mayo Clinic"
     title: "Research Student - Mayo Clinic Platform"
     date: "May - Aug 2025"
     bullets:
-      - "Analyzed risks to patient re-identification from models trained on de-identified medical images."
+      - "Analyzed risks to patient re-identification from models trained on de-identified medical images, informing secure modeling practices with medical imaging."
       - "Developed model inversion methods and predicted PII with images reconstructed from model weights."
   - company: "Voythos"
     title: "Data Science Intern"
@@ -39,7 +39,7 @@ experience:
     date: "May - Aug 2024"
     bullets:
       - "Developed an end-to-end workflow for customer AI/ML development with DICOM medical images by curating and annotating data, training models, and evaluating the efficacy of internal tools."
-      - "Built dashboards in Power BI to track customer acquisitions, visualize account metrics, and present product KPIs."
+      - "Built dashboards in Power BI to geographically track customer acquisitions, visualize account metrics, and present product KPIs."
       - "Queried clinical databases with SQL to identify cohorts of data for prospective customers."
   - company: "BC Children's Hospital Research Institute, UBC Faculty of Medicine"
     title: "Research Assistant"
@@ -55,7 +55,5 @@ awards:
     date: "Mar 2025"
 
 skills:
-  - "AI/ML: PyTorch, torchvision, TensorFlow, NiBabel, transformers, MONAI"
-  - "Data: Python, R, MySQL, MongoDB, Oracle d3.js, Power BI"
-  - "Web: HTML, CSS, Jinja, JavaScript, TypeScript, React, Next.js, Tailwind"
-  - "Tools: Git, Docker, Jupyter, REDCap, Epic EHR, FHIR"
+  - "Languages: Python, R, SQL, JavaScript/TypeScript, HTML/CSS"
+  - "Tools/Frameworks: Git, Docker, PyTorch, React, Power BI, REDCap, Epic EHR"
