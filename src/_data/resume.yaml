@@ -49,6 +49,8 @@ experience:
       - "Co-authored study protocols, ethics amendments, and data safety and monitoring plans."
 
 awards:
+  - title: "Adams Presidential Center Emerging Leader"
+    date: "Jun 2026"
   - title: "Andrew Wade Memorial Award in Visual Analytics"
     date: "Mar 2026"
   - title: "UBC Arts Undergraduate Society Student Conference Grant Award"
@@ -57,3 +59,34 @@ awards:
 skills:
   - "Languages: Python, R, SQL, JavaScript/TypeScript, HTML/CSS"
   - "Tools/Frameworks: Git, Docker, PyTorch, React, Power BI, REDCap, Epic EHR"
+
+teaching:
+  - company: "University of British Columbia"
+    title: "Teaching Assistant - COGS 401 (Seminar in Cognitive Systems)"
+    date: "Jan - Apr 2026"
+  - company: "UBC Multidisciplinary Undergraduate Research Conference"
+    title: "Adjudicator"
+    date: "Mar 2026"
+  - company: "UBC Emerging Media Lab"
+    title: "Software Developer"
+    date: "May - Aug 2023"
+  - company: "UBC Multifaceted Innovations in Neurotechnology"
+    title: "Deep Learning Researcher"
+    date: "Mar - Dec 2023"
+  - company: "UBC 180 Degrees Consulting"
+    title: "Data Science Consultant"
+    date: "Jan - Apr 2023"
+
+publications:
+  - title: "T1D REACHOUT-A Mobile App to Deliver Peer-Led Mental Health Support to Adults Living With Type 1 Diabetes: Co-Design and Development Process"
+    authors: "Sadie Lee, Baray Sidhu, Parteek Johal, Ayman Azhar, Jonath Sujan, Matthias Görges, Tricia S Tang"
+    details: "JMIR Diabetes. Mar 2026."
+  - title: "Re-identification Risk of Medical Imaging-Based Deep Learning Models"
+    authors: "Sadie Lee; Supervised by Adam Resnick and Rob Blundo (Mayo Clinic Platform)"
+    details: "Undergraduate Capstone. Aug 2025."
+  - title: "Formalizing Ethical Design in Prostate Cancer Image Analysis: A Preliminary Case Study"
+    authors: "Sadie Lee, Adam Resnick, Nasibeh Zanjirani Farahani"
+    details: "IEEE MIT Undergraduate Research Technology Conference. Oct 2024."
+  - title: "Topological Data Analysis and Interpretability of 3D-Convolutional Neural Networks"
+    authors: "Sadie Lee"
+    details: "AAAI Undergraduate Consortium. Feb 2024."

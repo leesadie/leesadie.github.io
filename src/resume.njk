@@ -25,6 +25,8 @@ layout: resume-layout.njk
   <section class="resume-section">
     <h2>Experience</h2>
 
+    <hr />
+
     {% for exp in resume.experience %}
       <article class="resume-entry">
         <div class="entry-content">
@@ -54,6 +56,8 @@ layout: resume-layout.njk
   <section class="resume-section">
     <h2>Education</h2>
 
+    <hr />
+
     {% for edu in resume.education %}
       <article class="resume-entry">
         <div class="entry-content">
@@ -79,7 +83,9 @@ layout: resume-layout.njk
 
   {# Awards #}
   <section class="resume-section">
-    <h2>Awards</h2>
+    <h2>Honors and Awards</h2>
+
+    <hr />
 
     {% for award in resume.awards %}
       <article class="resume-entry resume-entry--compact">
@@ -94,42 +100,11 @@ layout: resume-layout.njk
     {% endfor %}
   </section>
 
-
-  {# Teaching #}
-  {% if resume.teaching %}
-    <section class="resume-section">
-      <h2>Teaching</h2>
-
-      {% for item in resume.teaching %}
-        <article class="resume-entry">
-          <div class="entry-content">
-            <strong>{{ item.company }}</strong>
-
-            <div class="entry-subtitle">
-              {{ item.title }}
-            </div>
-          </div>
-
-          <time class="entry-date">
-            {{ item.date }}
-          </time>
-
-          {% if item.bullets %}
-            <ul class="entry-bullets">
-              {% for bullet in item.bullets %}
-                <li>{{ bullet }}</li>
-              {% endfor %}
-            </ul>
-          {% endif %}
-        </article>
-      {% endfor %}
-    </section>
-  {% endif %}
-
-
   {# Technical Skills #}
   <section class="resume-section">
     <h2>Technical Skills</h2>
+
+    <hr />
 
     <ul class="skills-list">
       {% for item in resume.skills %}
@@ -138,6 +113,65 @@ layout: resume-layout.njk
     </ul>
   </section>
 
-  <a href="/assets/Sadie_Lee_Resume.pdf" class="print-link" download>Download PDF</a>
+  {# Research #}
+  {% if resume.publications %}
+    <section class="resume-section">
+    <h2>Research</h2>
+
+    <hr />
+
+    {% for entry in resume.publications %}
+      <article class="resume-teaching">
+        <div class="entry-content">
+          <strong>{{ entry.title }}</strong>
+
+          <div class="entry-subtitle">
+            {{ entry.authors }}
+          </div>
+        </div>
+
+        {% if entry.details %}
+          <div class="entry-details">
+            {{ entry.details }}
+          </div>
+        {% endif %}
+      </article>
+    {% endfor %}
+      
+    </section>
+  {% endif %}
+
+  {# Teaching #}
+  {% if resume.teaching %}
+    <section class="resume-section">
+    <h2>Teaching and Volunteering</h2>
+
+    <hr />
+
+    {% for entry in resume.teaching %}
+      <article class="resume-teaching">
+        <div class="entry-content">
+          <strong>{{ entry.company }}</strong>
+
+          <div class="entry-subtitle">
+            {{ entry.title }}
+          </div>
+        </div>
+
+        <time class="entry-date">
+          {{ entry.date }}
+        </time>
+
+        {% if entry.details %}
+          <div class="entry-details">
+            {{ entry.details }}
+          </div>
+        {% endif %}
+      </article>
+    {% endfor %}
+  </section>
+  {% endif %}
+
+  <a href="/assets/Sadie_Lee_Resume.pdf" class="print-link" download>Download resume</a>
 
 </div>
