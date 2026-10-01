@@ -20,14 +20,14 @@ experience:
     title: "Research Assistant - Computational Health Informatics Program"
     date: "Jun 2026 - Present"
     bullets:
-      - "Developing methods to jointly estimate dynamical states and the quality of observed data to support predictive modeling and triage decisions with uncertainty."
-      - "Evaluating how frontier LLMs interpret continuous glucose monitor data to inform safe integration in diabetes care."
+      - "Developing methods to forecast plausible trajectories and quantify uncertainty for patient risk of diabetes-related complications using continuous glucose monitoring (CGM) data."
+      - "Evaluating how frontier LLMs interpret CGM data to inform safe integration in diabetes care."
       - "Building pipelines to process FHIR data, identify cohorts, run evaluations, and analyze model outputs."
   - company: "Mayo Clinic"
     title: "Research Student - Mayo Clinic Platform"
     date: "May - Aug 2025"
     bullets:
-      - "Analyzed risks to patient re-identification from models trained on de-identified medical images, informing secure modeling practices with medical imaging."
+      - "Analyzed risks to patient re-identification from models trained on de-identified medical images, informing secure model export practices with medical imaging."
       - "Developed model inversion methods and predicted PII with images reconstructed from model weights."
   - company: "Voythos"
     title: "Data Science Intern"
@@ -49,8 +49,6 @@ experience:
       - "Co-authored study protocols, ethics amendments, and data safety and monitoring plans."
 
 awards:
-  - title: "Adams Presidential Center Emerging Leader"
-    date: "Jun 2026"
   - title: "Andrew Wade Memorial Award in Visual Analytics"
     date: "Mar 2026"
   - title: "UBC Arts Undergraduate Society Student Conference Grant Award"
