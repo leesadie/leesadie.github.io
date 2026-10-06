@@ -151,21 +151,21 @@ h4 {
   margin-bottom: 0.25rem;
 }
 
-main ul, 
+/* main ul, 
 main ol {
   padding-left: 1.5rem; 
   margin-top: 0.25rem;
   margin-bottom: 0;
-}
+} */
 
-main ul ul, 
+/* main ul ul, 
 main ol ol, 
 main ul ol, 
 main ol ul {
   padding-left: 1.5rem;
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
-}
+} */
 
 main li {
   margin-top: 0.15rem;
@@ -451,6 +451,16 @@ main th {
 .skills-list {
   margin-top: 0;
   padding-left: 16px;
+}
+
+.research-link {
+  text-decoration: none;
+}
+
+.resume-footer {
+  margin-top: 16px;
+  color: #616161;
+  font-size: 14px;
 }
 
 .print-link {

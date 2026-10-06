@@ -1,6 +1,7 @@
 ---
 title: Sadie_Lee_Resume
 layout: resume-layout.njk
+date: Last Modified
 ---
 
 <div class="resume">
@@ -123,7 +124,9 @@ layout: resume-layout.njk
     {% for entry in resume.publications %}
       <article class="resume-teaching">
         <div class="entry-content">
-          <strong>{{ entry.title }}</strong>
+          <a href="{{ entry.link }}" class="research-link">
+            <strong>{{ entry.title }}</strong>
+          </a>
 
           <div class="entry-subtitle">
             {{ entry.authors }}
@@ -172,6 +175,9 @@ layout: resume-layout.njk
   </section>
   {% endif %}
 
-  <a href="/assets/Sadie_Lee_Resume.pdf" class="print-link" download>Download resume</a>
+  <a href="/assets/Sadie_Lee_CV.pdf" class="print-link" download>Download PDF</a>
 
+  <footer class="resume-footer">
+    <p>Last updated: <time datetime="{{ page.date | dateToIso }}">{{ page.date | formatDate}}</time></p>
+  </footer>
 </div>

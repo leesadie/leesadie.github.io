@@ -2,7 +2,6 @@
 import markdownIt from "markdown-it";
 import markdownItAnchor from "markdown-it-anchor";
 import markdownItToc from "markdown-it-table-of-contents";
-// import mathjax3 from "markdown-it-mathjax3";
 import yaml from "js-yaml";
 
 export default async function (eleventyConfig) {
@@ -24,6 +23,15 @@ export default async function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy('assets');
     eleventyConfig.addPassthroughCopy('src/css')
     eleventyConfig.setLibrary("md", markdownLib);
+
+    eleventyConfig.addFilter("dateToIso", (date) => {
+        return new Date(date).toISOString();
+    });
+    eleventyConfig.addFilter("formatDate", (date) => {
+        return new Intl.DateTimeFormat("en-US", {
+            dateStyle: "medium"
+        }).format(new Date(date));
+    });
 
     return {
         dir: { input: 'src', output: '_site' },

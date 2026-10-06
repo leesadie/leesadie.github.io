@@ -103,7 +103,7 @@
 - title: "Tofino"
   slug: "tofino-24"
   year: "2024"
-  desc: "Roadtrip to Tofino with my sister during rainy season."
+  desc: "Roadtrip to Tofino."
   photos:
     - src: "../../../assets/photos/tofino-24/01-tofino-24.jpg"
       alt: "Ferry 1"
@@ -133,7 +133,7 @@
 - title: "Boston / Mayo"
   slug: "boston-24"
   year: "2024"
-  desc: "I was in Boston for a conference, spent some time walking around, and stopped by the Mayo Clinic in Rochester to visit some colleagues/supervisors on my way back to school."
+  desc: "I was in Boston for a conference, spent some time walking around, and stopped by the Mayo Clinic in Rochester to visit a few of my supervisors on the way back to school."
   photos:
     - src: "../../../assets/photos/bos-24/01-bos-24.jpg"
       alt: "Common 1"
