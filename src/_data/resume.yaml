@@ -21,9 +21,10 @@ experience:
     date: "Jun 2026 - Present"
     bullets:
       - "Evaluating frontier LLMs for clinical decision support using clinician-annotated benchmark datasets to measure model safety and deployment readiness."
-      - "Building scalable end-to-end data analytic pipelines in Python and R to process and analyze Electronic Health Record (EHR) data."
-      - "Engineered a deterministic natural language processing pipeline to parse unstructured clinical text, enabling targeted cohort segmentation."
-      - "Conducting additional original research using state space models to forecast long-term continuous glucose trajectories and dynamics."
+      - "Building custom LLM evaluation pipelines in Python to automate scoring and model comparisons."
+      - "Engineered deterministic natural language processing to parse unstructured clinical text, enabling targeted cohort segmentation."
+      - "Developing visual interfaces to communicate results to technical and non-technical clinical stakeholders."
+      - "Using state space models to forecast long-term continuous glucose trajectories and dynamics."
   - company: "Mayo Clinic"
     title: "Research Student - Mayo Clinic Platform"
     date: "May - Aug 2025"
@@ -42,7 +43,7 @@ experience:
     bullets:
       - "Built dashboards in Power BI to geographically track customer acquisitions, visualize account metrics, and present product KPIs."
       - "Established an internal pipeline to help health tech start-up customers prepare for market by providing de-identified medical images for AI/ML development."
-      - "Trained 3D convolutional neural networks in PyTorch for abnormality classification and segmentation."
+      - "Trained 3D convolutional neural networks in PyTorch for prostate MRI abnormality classification and segmentation."
       - "Queried relational clinical databases using SQL to assess data availability and scope feasibility for prospective customers."
   - company: "BC Children's Hospital Research Institute, UBC Faculty of Medicine"
     title: "Research Assistant"
